@@ -1,0 +1,32 @@
+{
+  "name": "coalapay-prototypes",
+  "version": "1.0.0",
+  "description": "coalapay-prototypes",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --require ts-node/register 'src/**/*.test.ts' --timeout 300000",
+    "build": "npx tsc -p . && npx tsc-alias"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pellartech/coalapay-prototypes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pellartech/coalapay-prototypes/issues"
+  },
+  "homepage": "https://github.com/pellartech/coalapay-prototypes#readme",
+  "dependencies": {
+    "xrpl": "^2.11.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.6",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
