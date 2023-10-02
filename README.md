@@ -1,6 +1,6 @@
-## CoalaPay XPR Library Prototype
+## Coala Pay XPR Library Prototype
 
-The intent of this library is to extend CoalaPay to support the XRP protocol. 
+The intent of this library is to extend Coala Pay to support the XRP protocol. 
 
 Where organisations can create an NFT representing their funding needs, and donors can offer to purchase the NFT.
 
